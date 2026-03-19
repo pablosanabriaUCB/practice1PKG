@@ -24,6 +24,8 @@ setup(
     },
     entry_points={
         'console_scripts': [
+            'pubsensores = practice1PKG.pub_sensores:main',
+            'subsensores = practice1PKG.sub_sensores:main'
         ],
     },
 )
